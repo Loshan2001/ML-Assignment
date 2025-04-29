@@ -45,6 +45,7 @@ The project evaluated multiple regression models:
    - Simple Linear Regression
    - Ridge Regression
    - Lasso Regression
+
 2. **Tree-Based Models**:
 
    - Decision Tree
@@ -63,7 +64,6 @@ Models were evaluated using:
 ## Key Findings
 
 - Ridge Regression and Linear Regression performed best with test R² scores around 0.88
-- CatBoost and AdaBoost were the next best performers with test R² scores of approximately 0.85
 - Parental education level and reading/writing scores were the most important predictors of math performance
 - Female students generally outperformed male students
 - Students with standard lunches performed better than those with free/reduced lunches
@@ -73,21 +73,6 @@ Models were evaluated using:
 
 - Ridge Regression: 0.880
 - Linear Regression: 0.880
-- CatBoost: 0.851
-- AdaBoost: 0.851
 - Random Forest: 0.849
 - Lasso Regression: 0.825
-- XGBoost: 0.825
-- K-Neighbors Regressor: 0.776
 - Decision Tree: 0.731
-
-## Requirements
-
-- Python 3.x
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- XGBoost
-- CatBoost
